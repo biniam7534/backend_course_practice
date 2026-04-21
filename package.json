@@ -1,15 +1,17 @@
 {
-  "name": "chapter_2",
+  "name": "backend_course_practice",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "practices/index.js",
   "scripts": {
+    "start": "node practices/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type":"module",
+  "description": "",
   "dependencies": {
-    "express": "^5.2.1"
+    "dotenv": "^17.4.2"
   }
 }
